@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { PaymentMethod } from '@prisma/client';
+import { PaymentMethod, FeeStatus } from '@prisma/client';
 
 export const createPaymentSchema = z.object({
   feeId: z.string().uuid(),

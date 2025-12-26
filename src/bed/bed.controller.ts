@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Put, Delete, Param, Body, HttpException, HttpStatus } from '@nestjs/common';
-import { BedStatus } from '@prisma/client';
 import { BedsService } from './bed.service';
+import { BedStatus } from '@prisma/client';
+
 
 @Controller('beds')
 export class BedsController {
